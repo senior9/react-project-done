@@ -1,0 +1,130 @@
+.bookmark-part{
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+.container-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-top: 50px;
+}
+.time-count {
+  box-sizing: border-box;
+  width: 411px;
+  height: 80px;
+  background: rgba(96, 71, 236, 0.1);
+  border: 1px solid #6047ec;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.time-count p{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #6047EC;
+
+text-align: center;
+}
+
+.save-bookMraked{
+    background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+}
+.save-bookMraked p{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+/* or 38px */
+margin-left: 20px;
+text-align: left;
+color: #111111;
+gap: 10pxs;
+}
+.title-bookmarked{
+    background: #FFFFFF;
+border-radius: 8px;
+margin: 0 auto;
+width: 351px;
+height: 98px;
+/* margin-left: 20px; */
+margin-top: 10px;
+/* overflow-y: scroll; */
+}
+.title-bookmarked{
+  font-family: 'Exo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+color: #111111;
+}
+.bookmarked-part{
+  top:0;
+  position: sticky;
+  z-index: 1;
+}
+
+/* For screens smaller than 768px (i.e., mobile devices) */
+@media screen and (max-width: 768px) {
+  .container-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .card-blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 50px;
+  }
+  .time-count {
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047ec;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .time-count p{
+    font-size: 18px;
+  }
+  .save-bookMraked{
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .save-bookMraked p{
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .title-bookmarked{
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  .title-bookmarked p{
+    font-size: 16px;
+  }
+  .bookmarked-part{
+    top:0;
+    position: sticky;
+    z-index: 1;
+  }
+  
+}

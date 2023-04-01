@@ -1,0 +1,32 @@
+.question{
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  display:flex;
+  flex-direction: column;
+  column-gap: 10px;
+  }
+  .question-section p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+    text-align: left;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th{
+    text-align: center;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

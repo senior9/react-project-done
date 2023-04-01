@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "Be Unique Be programmer",
+        "img": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "time": 12,
+        "date": "Apr 25 (4 days ago)",
+        "author": "John Smith",
+        "author_image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+        "id": "2",
+        "title": "Learn and Master Python in a Month",
+        "img": "https://www.programming-hero.com/blog/assets/images/blog/learn-and-master-python-in-a-month.png",
+        "time": 10,
+        "date": "Mar 11 (10 days ago)",
+        "author": "Sir Jhankar Mahbub",
+        "author_image": "https://media.licdn.com/dms/image/D5603AQEOjP3ON2knRg/profile-displayphoto-shrink_200_200/0/1677507598430?e=1685577600&v=beta&t=LH5T74K_pAOJ_64lJqrgUZPQKEY2a9EytwZyr4lJvpk"
+    },
+    {
+        "id": "3",
+        "title": "How to Become a Programmer",
+        "img": "https://www.programming-hero.com/blog/assets/images/blog/how-to-become-a-programmer.png",
+        "time": 15,
+        "date": "Jan 20 (5 days ago)",
+        "author": "Sir Jhankar Mahbub",
+        "author_image": "https://media.licdn.com/dms/image/D5603AQEOjP3ON2knRg/profile-displayphoto-shrink_200_200/0/1677507598430?e=1685577600&v=beta&t=LH5T74K_pAOJ_64lJqrgUZPQKEY2a9EytwZyr4lJvpk"
+    },
+    {
+        "id": "4",
+        "title": "Learn Python In A Week",
+        "img": "https://www.programming-hero.com/blog/assets/images/blog/learn-python-in-a-week.png",
+        "time": 18,
+        "date": "Jun 16 (12 days ago)",
+        "author": " Sir Jhankar Mahbub",
+        "author_image": "https://media.licdn.com/dms/image/D5603AQEOjP3ON2knRg/profile-displayphoto-shrink_200_200/0/1677507598430?e=1685577600&v=beta&t=LH5T74K_pAOJ_64lJqrgUZPQKEY2a9EytwZyr4lJvpk"
+    }
+]
